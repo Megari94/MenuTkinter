@@ -49,6 +49,7 @@ root = tk.Tk()
 root.title("🎮 Menú de Jueguitos")
 root.geometry("900x600")
 root.configure(bg="#444444")
+root.resizable(False, False)
 
 contenedor = tk.Frame(root, bg="#444444")
 contenedor.pack(fill="both", expand=True)
